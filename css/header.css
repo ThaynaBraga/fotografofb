@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagem-menu img {
+  max-width: 500px;
+}
+
+.menu {
+  display: flex;
+  gap: 0 3rem;
+}

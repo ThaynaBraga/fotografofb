@@ -1,0 +1,64 @@
+.fotos-bg {
+  background-image: linear-gradient(to top, #222 30%, #ededed 100%);
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.main p {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+
+.main blockquote {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.main blockquote::before {
+  content: "“";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+.main blockquote::after {
+  content: "”";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+.main span {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+
+.lista-fotos {
+  display: flex;
+  max-width: 1000px;
+  gap: 20px;
+  padding: 20px 20px 20px 20px;
+  overflow-x: scroll;
+}
+
+.lista-fotos li {
+  min-width: 200px;
+}
+
+.lista-fotos::-webkit-scrollbar {
+  background: #333;
+  border-radius: 8px;
+}
+
+.lista-fotos::-webkit-scrollbar-thumb {
+  background: #111;
+  border-radius: 8px;
+}

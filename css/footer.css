@@ -1,0 +1,19 @@
+.footer {
+  display: grid;
+  grid-template-columns: 100px 1fr 400px;
+  gap: 2rem;
+}
+.footer p {
+  font-size: 1.5rem;
+}
+.footer-lista {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-lista li {
+  flex: 1;
+}
+.footer-lista img {
+  margin: 0.5rem;
+}
